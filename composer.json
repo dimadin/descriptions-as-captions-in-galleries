@@ -1,0 +1,22 @@
+{
+	"name": "dimadin/descriptions-as-captions-in-galleries",
+	"description": "Show image descriptions as captions in galleries.",
+	"keywords": ["gallery", "caption"],
+	"type": "wordpress-plugin",
+	"homepage": "http://blog.milandinic.com/wordpress/plugins/descriptions-as-captions-in-galleries/",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Milan Dinić",
+			"email": "milan@srpski.biz",
+			"homepage": "http://blog.milandinic.com/"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/dimadin/descriptions-as-captions-in-galleries/issues",
+		"source": "https://github.com/dimadin/descriptions-as-captions-in-galleries"
+	},
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
