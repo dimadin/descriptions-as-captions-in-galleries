@@ -1,14 +1,5 @@
-=== Descriptions as Captions in Galleries ===
-Contributors: dimadin
-Donate link: http://blog.milandinic.com/donate/
-Tags: caption, gallery
-Requires at least: 3.1
-Tested up to: 3.4.1
-Stable tag: 1.0
-
-Show image descriptions as captions in galleries.
-
-== Description ==
+Descriptions as Captions in Galleries
+=====================================
 
 [Plugin homepage](http://blog.milandinic.com/wordpress/plugins/descriptions-as-captions-in-galleries/) | [Plugin author](http://blog.milandinic.com/) | [Donate](http://blog.milandinic.com/donate/)
 
@@ -19,12 +10,3 @@ If you use images just in galleries, in order to have text below image in both p
 This plugin changes that. You only fill description field and that text is used as caption of image in galleries.
 
 There are no options or settings, just enable plugin and everything works automatically.
-
-== Installation ==
-
-Either install the plugin via the WordPress admin panel, or ...
-
-1. Upload `descriptions-as-captions-in-galleries` folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-
-There are no configuration options in this plugin.
