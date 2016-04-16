@@ -15,7 +15,7 @@
  * Description: Show image descriptions as captions in galleries.
  * Author:      Milan Dinić
  * Author URI:  http://blog.milandinic.com/
- * Version:     1.0
+ * Version:     1.0.1
  * Text Domain: descriptions-as-captions-in-galleries
  * Domain Path: /languages/
  * License:     GPL
