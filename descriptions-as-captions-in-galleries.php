@@ -16,7 +16,7 @@
  * Author:      Milan Dinić
  * Author URI:  http://blog.milandinic.com/
  * Version:     1.0
- * Text Domain: dacig
+ * Text Domain: descriptions-as-captions-in-galleries
  * Domain Path: /languages/
  * License:     GPL
  */
@@ -32,7 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  * @uses load_plugin_textdomain() To load translation file
  */
 function dacig_load_textdomain() {
-	load_plugin_textdomain( 'dacig', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+	load_plugin_textdomain( 'descriptions-as-captions-in-galleries', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
 
 /**
@@ -63,7 +63,7 @@ function dacig_filter_plugin_actions( $links, $file ) {
 		$this_plugin = plugin_basename( __FILE__ );
 
 	if ( $file == $this_plugin ) {
-		$donate_link = '<a href="http://blog.milandinic.com/donate/">' . __( 'Donate', 'dacig' ) . '</a>';
+		$donate_link = '<a href="http://blog.milandinic.com/donate/">' . __( 'Donate', 'descriptions-as-captions-in-galleries' ) . '</a>';
 		$links = array_merge( array( $donate_link ), $links ); // Before other links
 	}
 
